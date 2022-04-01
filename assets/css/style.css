@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-dark: rgb(5, 41, 49);   
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    font-family: 'Open sans', sans-serif ;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container {
+    max-width: 570px;
+    margin: 50px auto;
+    background: rgb(212, 40, 10);
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-top: 180px;
+}
+.input-btn {
+  text-align: center;
+}
+h1 {
+    font-family: 'Palette Mosaic';
+    font-size: 25px;
+}
+.input-tarefa {
+    width: 80%;
+    border-radius: 15px;
+    height: 30px;
+    background-color: rgb(186, 250, 250);
+    font-weight: bold;
+    font-size: 20px;
+}
+.title {
+    text-align: center;
+}
+.bt-tarefa {
+    width: 40%;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+.tarefas{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.bt-tarefa:hover {
+    background-color: aqua;
+}
+.footer {
+    text-align: center;
+    margin-top: 13%;
+    font-size: 0.4em;
+    font-family: 'Open sans', sans-serif;
+    color: #fff;
+}
